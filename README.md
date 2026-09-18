@@ -70,10 +70,10 @@ I used **theHarvester** in Kali Linux to collect open-source intelligence on a s
 **4.5 Network Scanning with Zenmap**  
 For the active scanning phase, I used Zenmap to perform network discovery on my local LAN.
 
-* I used the Windows ipconfig command to identify my local IP address and LAN subnet (10.0.0.0/24).  
+* I used the ifconfig command to identify my local IP address and LAN subnet (10.0.0.0/24).  
 * I configured Zenmap with the Ping scan profile (nmap \-sn 10.0.0.0/24) to identify active hosts.  
-* The scan discovered four live hosts: 10.0.0.1, 10.0.0.4, 10.0.0.5, and 10.0.0.19.  
-* It also resolved the hardware MAC addresses (e.g., 00:50:56:E3:B3:2C, 00:0C:29:C0:94:8F, 00:50:56:E9:64:82).  
+* The scan discovered four live hosts: 10.0.0.1, 10.0.0.2.  
+* It also resolved the hardware MAC addresses.  
 * Finally, I accessed the Topology tab, enabled the legend, and exported the visual network graph as a PDF.
 
 **5\. Risk Analysis / Impact**  
@@ -197,7 +197,7 @@ Read the HTTP response headers to see the server banner, status, cookies and red
 
 **3.What are the MAC addresses of the live hosts?**   
 **Answer:**   
-52:54:00:12:35:00   
+52:54:00:12:35:00 
 08:00:27:8a:35:d2 
 
 <img width="1917" height="908" alt="nmap ping scan" src="https://github.com/user-attachments/assets/e2015a7c-d020-42b8-a4a0-86fdd4e94b7c" />
