@@ -64,7 +64,7 @@ I downloaded and configured Maltego Community Edition on a Windows machine to pe
 **4.4 OSINT with theHarvester**  
 I used **theHarvester** in Kali Linux to collect open-source intelligence on a separate target, microsoft.com.
 
-* Running the command theHarvester \-d microsoft.com \-l 1000 \-b baidu, I extracted email IDs associated with the domain, including viva-noreply@microsoft.com.  
+* Running the command theHarvester \-d microsoft.com \-l 1000 \-b baidu, I extracted email IDs associated with the domain. 
 * I executed a secondary search across all supported data sources (-b all) with a limit of 50 to maximize the collection of exposed subdomains and employee information.
 
 **4.5 Network Scanning with Zenmap**  
